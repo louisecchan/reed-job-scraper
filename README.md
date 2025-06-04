@@ -1,6 +1,6 @@
 # 🧑‍💻 Web Developer Job Finder (Using Reed.co.uk API)
 
-This simple Python script helps you find **web developer jobs in London** using the [Reed.co.uk](https://www.reed.co.uk/) job search API. It fetches job listings and shows details like the title, company, location, salary, and job type. You can even open job applications directly in your browser.
+This simple Python script helps you find *jobs in London** using the [Reed.co.uk](https://www.reed.co.uk/) job search API. It fetches job listings and shows details like the title, company, location, salary, and job type. You can even open job applications directly in your browser.
 
 ---
 
