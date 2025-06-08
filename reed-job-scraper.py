@@ -57,10 +57,10 @@ def apply_to_job(job_url):
 def fetch_web_developer_jobs():
     # API parameters
     params = {
-        "keywords": '"web developer"',  # Exact phrase search
+        "keywords": '"web developer" -trainee',  # Exact phrase search, excluding trainee positions
         "locationName": "London",  # Limit to London jobs
         "distanceFromLocation": 10,  # Search radius in miles
-        "resultsToTake": 2,     # Maximum results per request
+        "resultsToTake": 10,     # Maximum results per request
         "minimumSalary": 32000,  # Minimum salary of £32,000
         "permanent": "true",    # Include permanent jobs
         "contract": "true",     # Include contract jobs
